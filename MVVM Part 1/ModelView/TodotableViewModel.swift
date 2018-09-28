@@ -10,8 +10,6 @@
 protocol TodoitemPresenttable {
     var id: String? { get }
     var textValue: String? { get }
-    
-    
 }
 
 struct TodotableItemViewModel:TodoitemPresenttable {
