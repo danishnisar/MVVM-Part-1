@@ -17,9 +17,6 @@ struct TodotableItemViewModel:TodoitemPresenttable {
     var textValue: String?
 }
 
-
-
-
 protocol TodotableviewDelegate {
     func onTodoitemAdd() -> ()
 }
@@ -32,7 +29,7 @@ struct TodotableViewModel {
         let item3 = TodotableItemViewModel(id: "3", textValue: "Ahmed is here")
         let item4 = TodotableItemViewModel(id: "4", textValue: "Abdullah is here")
         items.append(contentsOf: [item1,item2,item3,item4])
-    }
+        }
     var newValue: String?
     var items:[TodoitemPresenttable] = []
     

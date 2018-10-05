@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722E68E4215F9CBB00BDB55F /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68E3215F9CBB00BDB55F /* SecoundViewController.swift */; };
+		722E68E6215F9CE300BDB55F /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68E5215F9CE300BDB55F /* Courses.swift */; };
+		722E68E8215F9CF000BDB55F /* CoursesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68E7215F9CF000BDB55F /* CoursesViewModel.swift */; };
+		722E68EA2163B0EA00BDB55F /* outletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68E92163B0E900BDB55F /* outletModel.swift */; };
+		722E68EC2163B18000BDB55F /* OutletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68EB2163B18000BDB55F /* OutletViewModel.swift */; };
+		722E68F02163BD0B00BDB55F /* OutletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E68EE2163BD0B00BDB55F /* OutletTableViewCell.swift */; };
+		722E68F12163BD0B00BDB55F /* OutletTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722E68EF2163BD0B00BDB55F /* OutletTableViewCell.xib */; };
 		72565F1C215E38420021FBF1 /* TodotableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72565F1B215E38420021FBF1 /* TodotableViewModel.swift */; };
 		72565F20215E3A0E0021FBF1 /* TodoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72565F1E215E3A0E0021FBF1 /* TodoItemTableViewCell.swift */; };
 		72565F21215E3A0E0021FBF1 /* TodoItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72565F1F215E3A0E0021FBF1 /* TodoItemTableViewCell.xib */; };
+		72A14DB92165059400C603DA /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A14DB82165059400C603DA /* Services.swift */; };
+		72A14DBB21678EAD00C603DA /* CategoryProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A14DBA21678EAD00C603DA /* CategoryProducts.swift */; };
 		72A5B543214FC709006ED438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5B542214FC709006ED438 /* AppDelegate.swift */; };
 		72A5B545214FC709006ED438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5B544214FC709006ED438 /* ViewController.swift */; };
 		72A5B548214FC709006ED438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A5B546214FC709006ED438 /* Main.storyboard */; };
@@ -21,9 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		722E68E3215F9CBB00BDB55F /* SecoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewController.swift; sourceTree = "<group>"; };
+		722E68E5215F9CE300BDB55F /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		722E68E7215F9CF000BDB55F /* CoursesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewModel.swift; sourceTree = "<group>"; };
+		722E68E92163B0E900BDB55F /* outletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outletModel.swift; sourceTree = "<group>"; };
+		722E68EB2163B18000BDB55F /* OutletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletViewModel.swift; sourceTree = "<group>"; };
+		722E68EE2163BD0B00BDB55F /* OutletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletTableViewCell.swift; sourceTree = "<group>"; };
+		722E68EF2163BD0B00BDB55F /* OutletTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletTableViewCell.xib; sourceTree = "<group>"; };
 		72565F1B215E38420021FBF1 /* TodotableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodotableViewModel.swift; sourceTree = "<group>"; };
 		72565F1E215E3A0E0021FBF1 /* TodoItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemTableViewCell.swift; sourceTree = "<group>"; };
 		72565F1F215E3A0E0021FBF1 /* TodoItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoItemTableViewCell.xib; sourceTree = "<group>"; };
+		72A14DB82165059400C603DA /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		72A14DBA21678EAD00C603DA /* CategoryProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProducts.swift; sourceTree = "<group>"; };
 		72A5B53F214FC708006ED438 /* MVVM Part 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Part 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A5B542214FC709006ED438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A5B544214FC709006ED438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		722E68ED2163BCD000BDB55F /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				722E68EE2163BD0B00BDB55F /* OutletTableViewCell.swift */,
+				722E68EF2163BD0B00BDB55F /* OutletTableViewCell.xib */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
 		72565F1D215E39EC0021FBF1 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +81,14 @@
 				72565F1F215E3A0E0021FBF1 /* TodoItemTableViewCell.xib */,
 			);
 			path = Nibs;
+			sourceTree = "<group>";
+		};
+		72A14DB72165056F00C603DA /* Api+Services */ = {
+			isa = PBXGroup;
+			children = (
+				72A14DB82165059400C603DA /* Services.swift */,
+			);
+			path = "Api+Services";
 			sourceTree = "<group>";
 		};
 		72A5B536214FC707006ED438 = {
@@ -75,6 +110,8 @@
 		72A5B541214FC708006ED438 /* MVVM Part 1 */ = {
 			isa = PBXGroup;
 			children = (
+				72A14DB72165056F00C603DA /* Api+Services */,
+				722E68ED2163BCD000BDB55F /* Nib */,
 				72565F1D215E39EC0021FBF1 /* Nibs */,
 				72A5B557214FC7BA006ED438 /* Controller */,
 				72A5B556214FC7B1006ED438 /* View */,
@@ -90,6 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				72A5B558214FC7E5006ED438 /* Pet.swift */,
+				722E68E5215F9CE300BDB55F /* Courses.swift */,
+				722E68E92163B0E900BDB55F /* outletModel.swift */,
+				72A14DBA21678EAD00C603DA /* CategoryProducts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +140,8 @@
 				72A5B55A214FC8CA006ED438 /* PetModelView.swift */,
 				72FB94EB215136D1002BFE8A /* MovieViewModel.swift */,
 				72565F1B215E38420021FBF1 /* TodotableViewModel.swift */,
+				722E68E7215F9CF000BDB55F /* CoursesViewModel.swift */,
+				722E68EB2163B18000BDB55F /* OutletViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -118,6 +160,7 @@
 			children = (
 				72A5B542214FC709006ED438 /* AppDelegate.swift */,
 				72A5B544214FC709006ED438 /* ViewController.swift */,
+				722E68E3215F9CBB00BDB55F /* SecoundViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +227,7 @@
 				72A5B54D214FC734006ED438 /* LaunchScreen.storyboard in Resources */,
 				72A5B54A214FC734006ED438 /* Assets.xcassets in Resources */,
 				72565F21215E3A0E0021FBF1 /* TodoItemTableViewCell.xib in Resources */,
+				722E68F12163BD0B00BDB55F /* OutletTableViewCell.xib in Resources */,
 				72A5B548214FC709006ED438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,12 +240,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A5B559214FC7E5006ED438 /* Pet.swift in Sources */,
+				722E68EA2163B0EA00BDB55F /* outletModel.swift in Sources */,
+				722E68E8215F9CF000BDB55F /* CoursesViewModel.swift in Sources */,
+				72A14DB92165059400C603DA /* Services.swift in Sources */,
+				72A14DBB21678EAD00C603DA /* CategoryProducts.swift in Sources */,
 				72565F20215E3A0E0021FBF1 /* TodoItemTableViewCell.swift in Sources */,
 				72565F1C215E38420021FBF1 /* TodotableViewModel.swift in Sources */,
 				72FB94EC215136D2002BFE8A /* MovieViewModel.swift in Sources */,
 				72A5B545214FC709006ED438 /* ViewController.swift in Sources */,
 				72A5B55B214FC8CA006ED438 /* PetModelView.swift in Sources */,
+				722E68E4215F9CBB00BDB55F /* SecoundViewController.swift in Sources */,
+				722E68EC2163B18000BDB55F /* OutletViewModel.swift in Sources */,
 				72A5B543214FC709006ED438 /* AppDelegate.swift in Sources */,
+				722E68E6215F9CE300BDB55F /* Courses.swift in Sources */,
+				722E68F02163BD0B00BDB55F /* OutletTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

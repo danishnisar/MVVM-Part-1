@@ -37,7 +37,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="MVVM" id="WGa-vq-iBu"/>
+                    <navigationItem key="navigationItem" title="MVVM" id="WGa-vq-iBu">
+                        <barButtonItem key="rightBarButtonItem" title="Json" id="DDK-Mm-Vfq">
+                            <connections>
+                                <segue destination="G8j-P5-6lC" kind="show" id="8ZL-ip-Cro"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableviewOutlet" destination="ccz-B4-fLg" id="rT4-b7-HvO"/>
                     </connections>
@@ -45,6 +51,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1056.8" y="118.29085457271366"/>
+        </scene>
+        <!--Secound View Controller-->
+        <scene sceneID="chy-ul-Tek">
+            <objects>
+                <viewController id="G8j-P5-6lC" customClass="SecoundViewController" customModule="MVVM_Part_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hus-vg-bjE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4kq-T0-mAa">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="G8j-P5-6lC" id="ZiP-H4-YqA"/>
+                                    <outlet property="delegate" destination="G8j-P5-6lC" id="B4M-Oe-DUV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4kq-T0-mAa" firstAttribute="leading" secondItem="pKb-Wz-Cq6" secondAttribute="leading" id="PrO-Ak-wtR"/>
+                            <constraint firstItem="4kq-T0-mAa" firstAttribute="top" secondItem="pKb-Wz-Cq6" secondAttribute="top" id="TUB-Ql-CZB"/>
+                            <constraint firstItem="pKb-Wz-Cq6" firstAttribute="trailing" secondItem="4kq-T0-mAa" secondAttribute="trailing" id="oGA-gq-Vbj"/>
+                            <constraint firstItem="pKb-Wz-Cq6" firstAttribute="bottom" secondItem="4kq-T0-mAa" secondAttribute="bottom" id="yiu-mq-Oac"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pKb-Wz-Cq6"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewOutlets" destination="4kq-T0-mAa" id="GmM-fX-uIs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdC-Iq-6pR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MXR-kP-xF7">
